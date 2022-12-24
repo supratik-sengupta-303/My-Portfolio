@@ -1,0 +1,37 @@
+.projectCard {
+  padding: 10px 30px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.projectName {
+  padding: 5px;
+}
+
+.location1 {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.projectPeriod {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.associated {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.associated img {
+  width: 4%;
+}
+
+.associatedWith {
+  padding: 5px;
+}
+
+.projectDesc {
+  padding: 5px;
+}

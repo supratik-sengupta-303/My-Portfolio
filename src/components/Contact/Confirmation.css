@@ -1,0 +1,42 @@
+.fullBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(25%);
+}
+
+.confirmBox {
+  padding: 20px;
+  box-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+}
+
+.confSubmit {
+  padding: 40px 20px;
+}
+
+.confDetails {
+  padding: 10px;
+}
+
+.flexUl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 20%;
+  gap: 1rem;
+}
+
+.liClass {
+  flex-grow: 1;
+}
+
+.confBtn {
+  width: 100%;
+  height: 5vh;
+  background: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  cursor: pointer;
+}

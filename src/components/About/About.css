@@ -1,0 +1,90 @@
+.aboutMe {
+  height: 88vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+.aboutMe img {
+  width: 32%;
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+.info {
+  width: 50%;
+  height: 70vh;
+}
+
+.welcome {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.myName {
+  padding: 15px;
+  font-weight: 1000;
+  font-size: 3rem;
+}
+
+.description {
+  padding: 15px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.aws {
+  color: green;
+}
+
+.fswd {
+  color: red;
+}
+
+.welcome-msg {
+  color: blue;
+}
+
+.social {
+  padding: 5px 15px;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+
+.icon-anchor {
+  color: #212121;
+  width: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .aboutMe img {
+    width: 50%;
+    border-radius: 50%;
+    border: 2px solid gray;
+  }
+
+  .info {
+    width: 90%;
+    height: 100%;
+  }
+}

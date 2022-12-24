@@ -1,0 +1,35 @@
+.cardPromotion {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 10px 30px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.cardPromotion img {
+  width: 10%;
+}
+
+.cardName1 {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.location1 {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.duration1 {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.desg1 {
+  padding: 5px;
+}
+
+.desc1 {
+  padding: 5px;
+}

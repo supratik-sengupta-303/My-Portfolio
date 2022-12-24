@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 10px 30px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 10%;
+}
+
+.cardName {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.location {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.duration {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.desg {
+  padding: 5px;
+}
+
+.desc {
+  padding: 5px;
+}
+
+.inline {
+  display: inline;
+}
+
+@media only screen and (max-width: 600px) {
+  .card img {
+    width: 20%;
+  }
+}

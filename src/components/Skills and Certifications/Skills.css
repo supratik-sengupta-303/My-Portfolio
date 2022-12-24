@@ -1,0 +1,23 @@
+.skillsTitle {
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.techSkills {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skill {
+  padding: 10px 30px;
+  border: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 600px) {
+  .techSkills {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

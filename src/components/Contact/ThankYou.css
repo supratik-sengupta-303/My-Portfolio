@@ -1,0 +1,17 @@
+.thanksBox {
+  text-align: center;
+}
+
+.thanksMsg {
+  color: green;
+  font-size: 1.5rem;
+  padding: 40px;
+}
+
+.goToAbout {
+  border-radius: 5px;
+  background-color: lightblue;
+  width: 10%;
+  height: 5vh;
+  cursor: pointer;
+}

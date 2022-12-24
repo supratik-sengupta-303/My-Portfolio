@@ -1,0 +1,30 @@
+.CertCard {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 10px 30px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+
+.CertCard img {
+  width: 10%;
+}
+
+.certName {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.durationCert {
+  color: rgb(101, 101, 101);
+  padding: 5px;
+}
+
+.certIssuer {
+  padding: 5px;
+}
+
+.cred {
+  padding: 5px;
+}
