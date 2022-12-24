@@ -5,6 +5,7 @@
   padding: 10px 30px;
   border: 1px solid lightgray;
   border-radius: 8px;
+  text-align: justify;
 }
 
 .card img {
@@ -40,6 +41,13 @@
 
 @media only screen and (max-width: 600px) {
   .card img {
-    width: 20%;
+    width: 30%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
   }
 }

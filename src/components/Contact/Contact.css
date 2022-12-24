@@ -46,3 +46,11 @@
 .userSubmitBtn:hover {
   cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+  .myForm {
+    width: 90%;
+    left: 5%;
+    top: 30%;
+  }
+}

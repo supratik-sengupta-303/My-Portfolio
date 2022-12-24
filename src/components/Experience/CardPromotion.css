@@ -5,6 +5,7 @@
   padding: 10px 30px;
   border: 1px solid lightgray;
   border-radius: 8px;
+  text-align: justify;
 }
 
 .cardPromotion img {
@@ -32,4 +33,17 @@
 
 .desc1 {
   padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardPromotion img {
+    width: 30%;
+  }
+
+  .cardPromotion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
 }
